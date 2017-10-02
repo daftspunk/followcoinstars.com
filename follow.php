@@ -8,13 +8,15 @@ $loader->setPsr4('Abraham\\TwitterOAuth\\', [$vendorDir . '/abraham/twitteroauth
 
 $config = require $root.'/../../config/services.php';
 
+traceLog('test');
+
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 $devs = (new \October\Rain\Parse\Yaml)->parseFile($root.'/config/stars.yaml');
 
 $api = new TwitterOAuth(
-    array_get($config, 'services.twitter.key'),
-    array_get($config, 'services.twitter.secret'),
+    array_get($config, 'twitter.key'),
+    array_get($config, 'twitter.secret'),
     $argv[1],
     $argv[2]
 );
