@@ -1,0 +1,71 @@
+url = "/auth/:type?"
+==
+<?
+use System\Classes\ComposerManager;
+use Abraham\TwitterOAuth\TwitterOAuth;
+
+function onStart() {
+    ComposerManager::instance()->autoload(base_path('themes/followcoinstars/vendor'));
+
+    if ($this->param('type')) {
+        return $this->callback();
+    }
+    else {
+        return $this->auth();
+    }
+}
+
+function auth() {
+    $api = $this->api();
+    $callback = $this->currentPageUrl(['type' => 'callback']);
+    $requestToken = $api->oauth('oauth/request_token', ['oauth_callback' => $callback]);
+
+    Session::put('oauth_token', $requestToken['oauth_token']);
+    Session::put('oauth_token_secret', $requestToken['oauth_token_secret']);
+
+    $url = $api->url('oauth/authorize', ['oauth_token' => $requestToken['oauth_token']]);
+
+    return Redirect::to($url);
+}
+
+function callback() {
+    $api = $this->api();
+
+    $requestToken = [];
+    $requestToken['oauth_token'] = Session::get('oauth_token');
+    $requestToken['oauth_token_secret'] = Session::get('oauth_token_secret');
+
+    if (isset($_REQUEST['oauth_token']) && $requestToken['oauth_token'] !== $_REQUEST['oauth_token'] || isset($_REQUEST['denied'])) {
+        return Redirect::to('/');
+    }
+
+    $api = $this->api($requestToken['oauth_token'], $requestToken['oauth_token_secret']);
+    $accessToken = $api->oauth('oauth/access_token', ['oauth_verifier' => $_REQUEST['oauth_verifier']]);
+
+    Flash::success('Yay');
+
+    $file = base_path('themes/followcoinstars/follow.php');
+
+    $command = sprintf(
+        'php %s "%s" "%s" > /dev/null &',
+        $file,
+        $accessToken['oauth_token'],
+        $accessToken['oauth_token_secret']
+    );
+
+    exec($command);
+
+    return Redirect::to('/');
+}
+
+function api($token = null, $tokenSecret = null)
+{
+    return new TwitterOAuth(
+        Config::get('services.twitter.key'),
+        Config::get('services.twitter.secret'),
+        $token,
+        $tokenSecret
+    );
+}
+?>
+==
