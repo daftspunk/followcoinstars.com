@@ -18,7 +18,7 @@
   twitter: jihanwu
 
 - name: Deadal Nix
-  desc: Bitcoin ABC Developer
+  desc: Bitcoin ABC Developer http://bitcoinabc.org
   twitter: deadalnix
 
 - name: Ryan X. Charles
@@ -38,7 +38,7 @@
   twitter: thee_wolf
 
 - name: Ant Hill
-  desc: Creator of bccaddress.org
+  desc: Creator of http://bccaddress.org
   twitter: theantnest
 
 - name: bitsko
@@ -48,6 +48,10 @@
 - name: BitAlien
   desc: Libertarian, investor, Bitcoin enthusiast
   twitter: BitAlien_
+
+- name: Tomothy
+  desc: Bitcoin cash enthusiast
+  twitter: tomothyjones
 
 - name: Crypt-XO
   desc: Point & Figure Technical Analysis
