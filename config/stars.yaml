@@ -34,10 +34,6 @@
   desc: Bitcoin Evangelist & Conference Speaker
   twitter: aantonop
 
-- name: Jimmy Song
-  desc: Bitcoin Developer & Entrepreneur
-  twitter: jimmysong
-
 - name: Daniel Krawisz
   desc: Cofounder of Nakamoto Institute http://nakamotoinstitute.org
   twitter: DanielKrawisz
@@ -70,6 +66,10 @@
   desc: OpenBazaar UX designer
   twitter: thee_wolf
 
+- name: Jimmy Song
+  desc: Bitcoin Developer & Entrepreneur
+  twitter: jimmysong
+
 - name: Eli Afram
   desc: Developer, Cryptanalyst, Business Analyst
   twitter: justicemate
@@ -89,6 +89,14 @@
 - name: Michael Matthews
   desc: Bitcoin Miner & Bitcoin Cash enthusiast
   twitter: mikerelentless
+
+- name: Brad
+  desc: Programmer & Bitcoin Cash enthusiast
+  twitter: brad1121
+
+- name: mohrt
+  desc: Bitcoin Cash enthusiast
+  twitter: mohrt
 
 - name: bitsko
   desc: Bitcoin Cash enthusiast
