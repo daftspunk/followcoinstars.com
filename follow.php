@@ -1,15 +1,20 @@
+#!/usr/bin/env php
 <?php
 
 $root = __DIR__;
-$loader = require $root.'/vendor/autoload.php';
+$vendorDir = $root.'/vendor';
+$loader = require $root.'/../../vendor/autoload.php';
+$loader->setPsr4('Abraham\\TwitterOAuth\\', [$vendorDir . '/abraham/twitteroauth/src']);
+
+$config = require $root.'/../../config/services.php';
 
 use Abraham\TwitterOAuth\TwitterOAuth;
 
-$devs = Yaml::parseFile($root.'/config/stars.yaml');
+$devs = (new \October\Rain\Parse\Yaml)->parseFile($root.'/config/stars.yaml');
 
 $api = new TwitterOAuth(
-    Config::get('services.twitter.key'),
-    Config::get('services.twitter.secret'),
+    array_get($config, 'services.twitter.key'),
+    array_get($config, 'services.twitter.secret'),
     $argv[1],
     $argv[2]
 );
@@ -21,5 +26,5 @@ foreach ($devs as $dev) {
 
     $res = $api->post('friendships/create', [
         'screen_name' => $screenName
-    );
+    ]);
 }

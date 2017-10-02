@@ -20,7 +20,7 @@ function onStart() {
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Rockstar Cryptocurrency Players</title>
+        <title>Follow Crypto Rockstars</title>
         <meta name="description" content="Follow rockstar Cryptocurrency players with a single click">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -52,7 +52,7 @@ function onStart() {
                         (You can close the page now, but please do share it with friends)
                     {% endif %}
                     <br/><br/>
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Follow {{ stars|length }} awesome Cryptocurrency players with a single click" data-size="large" data-hashtags="bitcoin,cryptocurrency">Tweet</a>
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Follow {{ stars|length }} awesome crypto rockstars with a single click" data-size="large" data-hashtags="bitcoin,cryptocurrency">Tweet</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                       <br/>
                     <small>Someone missing from the list? Feel free to suggest them <a href="https://github.com/daftspunk/followcoinstars.com/blob/master/config/stars.yaml">by sending a pull request</a>.</small>
@@ -78,6 +78,31 @@ function onStart() {
                     </div>
                 {% endfor %}
             </div>
+            <hr/>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="disqus_thread"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = {{ ''|page }};
+this.page.identifier = 'followcoinstars';
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://followcoinstars-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                </div>
+            </div>
+
         </div>
 
         <hr/>
