@@ -1,6 +1,7 @@
 #
 # Rockstar Cryptocurrency Players
 #
+
 - name: Dr Craig S Wright
   desc: Alleged inventor of Bitcoin
   twitter: ProfFaustus
@@ -29,6 +30,14 @@
   desc: Chief Scientist at Bitcoin Unlimited
   twitter: PeterRizun
 
+- name: Andreas M. Antonopoulos
+  desc: Bitcoin Evangelist & Conference Speaker
+  twitter: aantonop
+
+- name: Jimmy Song
+  desc: Bitcoin Developer & Entrepreneur
+  twitter: jimmysong
+
 - name: Daniel Krawisz
   desc: Cofounder of Nakamoto Institute http://nakamotoinstitute.org
   twitter: DanielKrawisz
@@ -40,6 +49,10 @@
 - name: Jon Matonis
   desc: Founding Director at Bitcoin Foundation
   twitter: jonmatonis
+
+- name: Jimmy Nguyen
+  desc: Comms & Legal Officer at nChain
+  twitter: JimmyWinMedia
 
 - name: Ryan X. Charles
   desc: Cofounder & CEO of Yours http://yours.org
@@ -72,6 +85,10 @@
 - name: BitAlien
   desc: Libertarian, investor, Bitcoin enthusiast
   twitter: BitAlien_
+
+- name: Michael Matthews
+  desc: Bitcoin Miner & Bitcoin Cash enthusiast
+  twitter: mikerelentless
 
 - name: bitsko
   desc: Bitcoin Cash enthusiast
