@@ -1,6 +1,18 @@
 #
 # Rockstar Cryptocurrency Players
 #
+- name: Dr Craig S Wright
+  desc: Alleged creator of Bitcoin
+  twitter: ProfFaustus
+
+- name: Roger Ver
+  desc: Bitcoin Jesus
+  twitter: rogerkver
+
+- name: Mike Wolf
+  desc: OpenBazaar UX designer
+  twitter: thee_wolf
+
 - name: Samuel Georges
   desc: Armchair analyst and spectator
   twitter: daftspunk

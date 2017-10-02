@@ -7,10 +7,11 @@ Follow Crypto Rockstars - followcoinstars.com
 1. Create a new www directory
 1. Install October `php -r "eval('?>'.file_get_contents('https://octobercms.com/api/installer'));"`
 1. Make directory writable `storage`
-1. Update `config/cms.php` value `activeTheme` to `followcoinstars`
-1. Add twitter config to `config/services.php`
+1. Update `~/config/cms.php` value `activeTheme` to `followcoinstars`
+1. Add twitter config to `~/config/services.php`
 1. Extract this repo to `themes/followcoinstars`
 1. Run `composer install`
+1. Make sure `follow.php` can be executed by webserver.
 
 Twitter config
 
