@@ -21,13 +21,17 @@
   desc: Bitcoin ABC Developer http://bitcoinabc.org
   twitter: deadalnix
 
+- name: Daniel Krawisz
+  desc: Cofounder of Nakamoto Institute http://nakamotoinstitute.org
+  twitter: DanielKrawisz
+
 - name: Ryan X. Charles
   desc: Cofounder & CEO of Yours http://yours.org
   twitter: ryanxcharles
 
-- name: Daniel Krawisz
-  desc: Nakamoto Institute cofounder http://nakamotoinstitute.org
-  twitter: DanielKrawisz
+- name: Rob Danielson
+  desc: Cofounder of Rocketr
+  twitter: r0bbot
 
 - name: ElectronCash
   desc: Profile run by Otaci for Electron Cash
@@ -41,22 +45,26 @@
   desc: Creator of http://bccaddress.org
   twitter: theantnest
 
-- name: bitsko
-  desc: Bitcoin Chat Administrator
-  twitter: bitsko
+- name: Crypt-XO
+  desc: Point & Figure Technical Analysis
+  twitter: CryptXO
 
 - name: BitAlien
   desc: Libertarian, investor, Bitcoin enthusiast
   twitter: BitAlien_
 
+- name: bitsko
+  desc: Bitcoin Cash enthusiast
+  twitter: bitsko
+
 - name: Tomothy
-  desc: Bitcoin cash enthusiast
+  desc: Bitcoin Cash enthusiast
   twitter: tomothyjones
 
-- name: Crypt-XO
-  desc: Point & Figure Technical Analysis
-  twitter: CryptXO
+- name: Egon
+  desc: Bitcoin Cash enthusiast
+  twitter: Egon_01
 
 - name: Samuel Georges
-  desc: Armchair analyst and spectator
+  desc: Armchair analyst & spectator
   twitter: daftspunk
