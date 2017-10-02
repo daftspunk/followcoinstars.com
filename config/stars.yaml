@@ -2,7 +2,7 @@
 # Rockstar Cryptocurrency Players
 #
 - name: Dr Craig S Wright
-  desc: Alleged creator of Bitcoin
+  desc: Alleged inventor of Bitcoin
   twitter: ProfFaustus
 
 - name: Gavin Andresen
@@ -58,7 +58,7 @@
   twitter: justicemate
 
 - name: Ant Hill
-  desc: Creator of http://bccaddress.org
+  desc: Creator of http://cashaddress.org
   twitter: theantnest
 
 - name: Crypt-XO
