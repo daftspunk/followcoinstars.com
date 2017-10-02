@@ -9,6 +9,10 @@
   desc: Bitcoin Jesus
   twitter: rogerkver
 
+- name: Erik Voorhees
+  desc: CEO of ShapeShift
+  twitter: ErikVoorhees
+
 - name: Jihan Wu
   desc: Co-founder of BITMAIN
   twitter: jihanwu
@@ -29,10 +33,6 @@
   desc: OpenBazaar UX designer
   twitter: thee_wolf
 
-- name: Crypt-XO
-  desc: Point & Figure Technical Analysis
-  twitter: CryptXO
-
 - name: Ant Hill
   desc: Creator of bccaddress.org
   twitter: theantnest
@@ -44,6 +44,10 @@
 - name: BitAlien
   desc: Libertarian, investor, Bitcoin enthusiast
   twitter: BitAlien_
+
+- name: Crypt-XO
+  desc: Point & Figure Technical Analysis
+  twitter: CryptXO
 
 - name: Samuel Georges
   desc: Armchair analyst and spectator
