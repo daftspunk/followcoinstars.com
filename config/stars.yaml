@@ -10,16 +10,20 @@
   twitter: rogerkver
 
 - name: Jihan Wu
-  desc: Co-founder of BITMAIN.
+  desc: Co-founder of BITMAIN
   twitter: jihanwu
 
-- name: Mike Wolf
-  desc: OpenBazaar UX designer
-  twitter: thee_wolf
+- name: Ryan X. Charles
+  desc: Cofounder & CEO of Yours (http://yours.org )
+  twitter: ryanxcharles
 
 - name: Daniel Krawisz
   desc: Nakamoto Institute cofounder (nakamotoinstitute.org)
   twitter: DanielKrawisz
+
+- name: Mike Wolf
+  desc: OpenBazaar UX designer
+  twitter: thee_wolf
 
 - name: Crypt-XO
   desc: Point & Figure Technical Analysis
@@ -34,7 +38,7 @@
   twitter: bitsko
 
 - name: BitAlien
-  desc: Libertarian, investor, Bitcoin enthusiast.
+  desc: Libertarian, investor, Bitcoin enthusiast
   twitter: BitAlien_
 
 - name: Samuel Georges
