@@ -8,8 +8,6 @@ $loader->setPsr4('Abraham\\TwitterOAuth\\', [$vendorDir . '/abraham/twitteroauth
 
 $config = require $root.'/../../config/services.php';
 
-traceLog('test');
-
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 $devs = (new \October\Rain\Parse\Yaml)->parseFile($root.'/config/stars.yaml');
