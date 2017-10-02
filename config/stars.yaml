@@ -21,16 +21,24 @@
   desc: Bitcoin ABC Developer http://bitcoinabc.org
   twitter: deadalnix
 
+- name: Peter R. Rizun
+  desc: Chief Scientist at Bitcoin Unlimited
+  twitter: PeterRizun
+
 - name: Daniel Krawisz
   desc: Cofounder of Nakamoto Institute http://nakamotoinstitute.org
   twitter: DanielKrawisz
+
+- name: John McAfee
+  desc: Technology Pioneer
+  twitter: officialmcafee
 
 - name: Ryan X. Charles
   desc: Cofounder & CEO of Yours http://yours.org
   twitter: ryanxcharles
 
 - name: Rob Danielson
-  desc: Cofounder of Rocketr
+  desc: Cofounder of Rocketr http://rocketr.net
   twitter: r0bbot
 
 - name: ElectronCash
@@ -40,6 +48,10 @@
 - name: Mike Wolf
   desc: OpenBazaar UX designer
   twitter: thee_wolf
+
+- name: Eli Afram
+  desc: Developer, Cryptanalyst, Business Analyst
+  twitter: justicemate
 
 - name: Ant Hill
   desc: Creator of http://bccaddress.org
