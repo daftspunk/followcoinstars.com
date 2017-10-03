@@ -26,14 +26,6 @@
   desc: CEO of ShapeShift
   twitter: ErikVoorhees
 
-- name: Peter Smith
-  desc: CEO of Blockchain
-  twitter: OneMorePeter
-
-- name: Jeff Garzik
-  desc: Bitcoin Developer
-  twitter: jgarzik
-
 - name: Jihan Wu
   desc: Co-founder of BITMAIN
   twitter: jihanwu
@@ -45,6 +37,22 @@
 - name: Peter R. Rizun
   desc: Chief Scientist at Bitcoin Unlimited
   twitter: PeterRizun
+
+- name: Peter Smith
+  desc: CEO of Blockchain
+  twitter: OneMorePeter
+
+- name: Barry Silbert
+  desc: Founder & CEO of DCGco
+  twitter: barrysilbert
+
+- name: Stephen Pair
+  desc: Co-founder & CEO of bitpay
+  twitter: spair
+
+- name: Jeff Garzik
+  desc: Bitcoin Developer
+  twitter: jgarzik
 
 - name: Andreas M. Antonopoulos
   desc: Bitcoin Evangelist & Conference Speaker
@@ -59,7 +67,7 @@
   twitter: maxkeiser
 
 - name: Daniel Krawisz
-  desc: CoFounder of Nakamoto Institute http://nakamotoinstitute.org
+  desc: Co-founder of Nakamoto Institute http://nakamotoinstitute.org
   twitter: DanielKrawisz
 
 - name: John McAfee
@@ -71,11 +79,11 @@
   twitter: Falkvinge
 
 - name: Cameron Winklevoss
-  desc: CoFounder of Gemini Exchange
+  desc: Co-founder of Gemini Exchange
   twitter: winklevoss
 
 - name: Tyler Winklevoss
-  desc: CoFounder of Gemini Exchange
+  desc: Co-founder of Gemini Exchange
   twitter: tylerwinklevoss
 
 - name: Micree Zhan
@@ -95,7 +103,7 @@
   twitter: JimmyWinMedia
 
 - name: Brian Armstrong
-  desc: CoFounder & CEO at Coinbase
+  desc: Co-founder & CEO at Coinbase
   twitter: brian_armstrong
 
 - name: Bitcoin Rush
@@ -103,11 +111,11 @@
   twitter: Bitcoin_Rush
 
 - name: Ryan X. Charles
-  desc: CoFounder & CEO of Yours http://yours.org
+  desc: Co-founder & CEO of Yours http://yours.org
   twitter: ryanxcharles
 
 - name: Rob Danielson
-  desc: CoFounder of Rocketr http://rocketr.net
+  desc: Co-founder of Rocketr http://rocketr.net
   twitter: r0bbot
 
 - name: ElectronCash
@@ -115,14 +123,14 @@
   twitter: electroncash
 
 - name: Washington Sanchez
-  desc: CoFounder of OpenBazaar
+  desc: Co-founder of OpenBazaar
   twitter: drwasho
 
 - name: Sam Patterson
-  desc: CoFounder of OpenBazaar
+  desc: Co-founder of OpenBazaar
   twitter: SamuelPatt
 
-- name: brian hoffman
+- name: Brian Hoffman
   desc: OpenBazaar Project Lead
   twitter: brianchoffman
 
