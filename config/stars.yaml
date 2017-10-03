@@ -3,11 +3,11 @@
 #
 
 - name: Dr Craig S Wright
-  desc: Very early Bitcoin adopter
+  desc: Very Early Bitcoin Adopter
   twitter: ProfFaustus
 
 - name: Gavin Andresen
-  desc: Original lead developer of Bitcoin
+  desc: Original Lead Developer of Bitcoin
   twitter: gavinandresen
 
 - name: Vitalik Buterin
@@ -59,7 +59,7 @@
   twitter: maxkeiser
 
 - name: Daniel Krawisz
-  desc: Cofounder of Nakamoto Institute http://nakamotoinstitute.org
+  desc: CoFounder of Nakamoto Institute http://nakamotoinstitute.org
   twitter: DanielKrawisz
 
 - name: John McAfee
@@ -67,7 +67,7 @@
   twitter: officialmcafee
 
 - name: Rick Falkvinge
-  desc: Founder of the first Pirate Party.
+  desc: Founder of the first Pirate Party
   twitter: Falkvinge
 
 - name: Cameron Winklevoss
@@ -95,19 +95,19 @@
   twitter: JimmyWinMedia
 
 - name: Brian Armstrong
-  desc: Cofounder & CEO at Coinbase.
-  twitter: brian_armstrong 
+  desc: CoFounder & CEO at Coinbase
+  twitter: brian_armstrong
 
 - name: Bitcoin Rush
   desc: Cryptocurrency Journalist
   twitter: Bitcoin_Rush
 
 - name: Ryan X. Charles
-  desc: Cofounder & CEO of Yours http://yours.org
+  desc: CoFounder & CEO of Yours http://yours.org
   twitter: ryanxcharles
 
 - name: Rob Danielson
-  desc: Cofounder of Rocketr http://rocketr.net
+  desc: CoFounder of Rocketr http://rocketr.net
   twitter: r0bbot
 
 - name: ElectronCash
@@ -115,14 +115,14 @@
   twitter: electroncash
 
 - name: Washington Sanchez
-  desc: Cofounder of OpenBazaar
-  twitter: drwasho 
+  desc: CoFounder of OpenBazaar
+  twitter: drwasho
 
 - name: Sam Patterson
-  desc: Cofounder of OpenBazaar
+  desc: CoFounder of OpenBazaar
   twitter: SamuelPatt
 
-- name: brian hoffmanVerified account
+- name: brian hoffman
   desc: OpenBazaar Project Lead
   twitter: brianchoffman
 
@@ -176,7 +176,7 @@
 
 - name: bitsko
   desc: Bitcoin Cash enthusiast
-  twitter: bitsko
+  twitter: bitsko_xt
 
 - name: Tomothy
   desc: Bitcoin Cash enthusiast
@@ -191,5 +191,5 @@
   twitter: bsmith12251960
 
 - name: Samuel Georges
-  desc: Armchair analyst & spectator
+  desc: Bitcoin Cash enthusiast
   twitter: daftspunk
