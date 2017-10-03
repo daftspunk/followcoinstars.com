@@ -10,6 +10,14 @@
   desc: Original lead developer of Bitcoin
   twitter: gavinandresen
 
+- name: Vitalik Buterin
+  desc: Co-founder of Ethereum Project
+  twitter: VitalikButerin
+
+- name: Joseph Lubin
+  desc: Co-founder of Ethereum Project
+  twitter: ethereumJoseph
+
 - name: Roger Ver
   desc: Bitcoin Jesus
   twitter: rogerkver
@@ -17,6 +25,14 @@
 - name: Erik Voorhees
   desc: CEO of ShapeShift
   twitter: ErikVoorhees
+
+- name: Peter Smith
+  desc: CEO of Blockchain
+  twitter: OneMorePeter
+
+- name: Jeff Garzik
+  desc: Bitcoin Developer
+  twitter: jgarzik
 
 - name: Jihan Wu
   desc: Co-founder of BITMAIN
@@ -34,6 +50,14 @@
   desc: Bitcoin Evangelist & Conference Speaker
   twitter: aantonop
 
+- name: Adam B. Levine
+  desc: Host of Let's Talk Bitcoin Podcast
+  twitter: GamerAndy
+
+- name: Max Keiser
+  desc: Host of The Keiser Report
+  twitter: maxkeiser
+
 - name: Daniel Krawisz
   desc: Cofounder of Nakamoto Institute http://nakamotoinstitute.org
   twitter: DanielKrawisz
@@ -42,6 +66,26 @@
   desc: Technology Pioneer
   twitter: officialmcafee
 
+- name: Rick Falkvinge
+  desc: Founder of the first Pirate Party.
+  twitter: Falkvinge
+
+- name: Cameron Winklevoss
+  desc: CoFounder of Gemini Exchange
+  twitter: winklevoss
+
+- name: Tyler Winklevoss
+  desc: CoFounder of Gemini Exchange
+  twitter: tylerwinklevoss
+
+- name: Micree Zhan
+  desc: CEO of BITMAIN
+  twitter: MicreeZ
+
+- name: Star Xu
+  desc: CEO of OKCoin
+  twitter: starokcoin
+
 - name: Jon Matonis
   desc: Founding Director at Bitcoin Foundation
   twitter: jonmatonis
@@ -49,6 +93,14 @@
 - name: Jimmy Nguyen
   desc: Comms & Legal Officer at nChain
   twitter: JimmyWinMedia
+
+- name: Brian Armstrong
+  desc: Cofounder & CEO at Coinbase.
+  twitter: brian_armstrong 
+
+- name: Bitcoin Rush
+  desc: Cryptocurrency Journalist
+  twitter: Bitcoin_Rush
 
 - name: Ryan X. Charles
   desc: Cofounder & CEO of Yours http://yours.org
@@ -62,6 +114,18 @@
   desc: Profile run by Otaci for Electron Cash
   twitter: electroncash
 
+- name: Washington Sanchez
+  desc: Cofounder of OpenBazaar
+  twitter: drwasho 
+
+- name: Sam Patterson
+  desc: Cofounder of OpenBazaar
+  twitter: SamuelPatt
+
+- name: brian hoffmanVerified account
+  desc: OpenBazaar Project Lead
+  twitter: brianchoffman
+
 - name: Mike Wolf
   desc: OpenBazaar UX designer
   twitter: thee_wolf
@@ -69,6 +133,10 @@
 - name: Jimmy Song
   desc: Bitcoin Developer & Entrepreneur
   twitter: jimmysong
+
+- name: Charlie Shrem
+  desc: Bitcoin Pioneer & Bitcoin Supporter
+  twitter: CharlieShrem
 
 - name: Eli Afram
   desc: Developer, Cryptanalyst, Business Analyst
